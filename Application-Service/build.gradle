@@ -14,6 +14,8 @@ dependencies {
     implementation 'io.reactivex.rxjava3:rxjava:3.1.8'
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.18'
+    testImplementation 'io.projectreactor:reactor-test:3.6.2'
 }
 
 test {

@@ -26,7 +26,7 @@ public class BeansConfig {
 
     @Bean
     public ListByIdPort listByIdPort(ToDoRepositoryPort toDoRepositoryPort){
-        return new ListoByIdUseCase(toDoRepositoryPort);
+        return new ListByIdUseCase(toDoRepositoryPort);
     }
 
     @Bean

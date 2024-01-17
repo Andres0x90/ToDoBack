@@ -1,7 +1,7 @@
 package io.evolutioncode;
 
 import io.evolutioncode.model.ToDo;
-import io.evolutioncode.ports.input.RepositoryMapperPort;
+import io.evolutioncode.ports.output.RepositoryMapperPort;
 import org.springframework.stereotype.Component;
 
 @Component

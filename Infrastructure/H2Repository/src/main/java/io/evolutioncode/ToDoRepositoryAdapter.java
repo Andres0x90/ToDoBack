@@ -1,7 +1,7 @@
 package io.evolutioncode;
 
 import io.evolutioncode.model.ToDo;
-import io.evolutioncode.ports.input.RepositoryMapperPort;
+import io.evolutioncode.ports.output.RepositoryMapperPort;
 import io.evolutioncode.ports.output.ToDoRepositoryPort;
 import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Flowable;

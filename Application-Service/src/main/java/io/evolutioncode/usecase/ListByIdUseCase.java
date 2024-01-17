@@ -4,12 +4,11 @@ import io.evolutioncode.model.ToDo;
 import io.evolutioncode.ports.input.ListByIdPort;
 import io.evolutioncode.ports.output.ToDoRepositoryPort;
 import io.reactivex.rxjava3.core.Maybe;
-import io.reactivex.rxjava3.core.Single;
 
-public class ListoByIdUseCase implements ListByIdPort {
+public class ListByIdUseCase implements ListByIdPort {
     private final ToDoRepositoryPort toDoRepository;
 
-    public ListoByIdUseCase(ToDoRepositoryPort toDoRepository) {
+    public ListByIdUseCase(ToDoRepositoryPort toDoRepository) {
         this.toDoRepository = toDoRepository;
     }
 
