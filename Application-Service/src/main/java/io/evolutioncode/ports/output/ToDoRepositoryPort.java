@@ -6,7 +6,6 @@ import io.reactivex.rxjava3.core.Flowable;
 import io.reactivex.rxjava3.core.Maybe;
 import io.reactivex.rxjava3.core.Single;
 
-import java.util.List;
 
 public interface ToDoRepositoryPort {
     Single<ToDo> save(ToDo toDo);

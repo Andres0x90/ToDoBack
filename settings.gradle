@@ -4,4 +4,4 @@ include 'Application-Service'
 include 'Application-Context'
 include 'Infrastructure'
 include 'Infrastructure:H2Repository'
-
+include 'Infrastructure:Entrypoints'

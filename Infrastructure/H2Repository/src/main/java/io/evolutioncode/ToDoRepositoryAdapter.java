@@ -9,12 +9,6 @@ import io.reactivex.rxjava3.core.Maybe;
 import io.reactivex.rxjava3.core.Single;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import reactor.adapter.JdkFlowAdapter;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
-
-import java.util.List;
-import java.util.concurrent.Flow;
 
 @Repository
 public class ToDoRepositoryAdapter implements ToDoRepositoryPort {
